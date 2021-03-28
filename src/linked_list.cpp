@@ -146,7 +146,6 @@ namespace itis {
     }
 
     Element LinkedList::tail() const {
-        // вместо выброса ошибки в случае nullptr, римским парламентов было решено возвращать "специальное" значение
         return tail_ ? tail_->data : Element::UNINITIALIZED;
     }
 

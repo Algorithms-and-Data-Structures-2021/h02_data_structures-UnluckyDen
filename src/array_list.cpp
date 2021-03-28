@@ -109,7 +109,6 @@ namespace itis {
         return IndexOf(e) != kNotFoundElementIndex;
     }
 
-    // это делегирующий конструктор если что
     ArrayList::ArrayList() : ArrayList(kInitCapacity) {}
 
     int ArrayList::GetSize() const {
